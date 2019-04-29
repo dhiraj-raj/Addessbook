@@ -1,5 +1,5 @@
 pipeline{
-    agent {lable 'node-mvn'}
+    agent {label 'node-mvn'}
 	stages{
 		stage ('Build mvn-project'){
 			steps{
